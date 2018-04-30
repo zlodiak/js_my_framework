@@ -1,3 +1,4 @@
-console.log('erwrwer');
+import { bootstrap } from './framework/core/bootstrap';
+import { appModule } from './app/app.module';
 
-document.querySelector('h1').textContent = 'worked';
+bootstrap(appModule);
